@@ -19,4 +19,5 @@ to access my profile page```
 ```as a user i want to edit my guests for attending the wedding```
 
 
+#ADMIN
 ```as admin I want to be able to edit all profiles so i can kick people out of the wedding```
