@@ -1,4 +1,5 @@
-![shhhhh just let it happen](https://github.com/Steavod19/wedding-site/blob/master/images/logoSmall.png "# Build cool shit wedding page")
+# Build cool shit wedding page
+![shhhhh just let it happen](https://github.com/Steavod19/wedding-site/blob/master/images/logoSmall.png "Wedding page")
 
 ## PAGES & OATH
 
