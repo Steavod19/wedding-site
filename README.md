@@ -1,4 +1,6 @@
-# page building & OATH
+# Build cool shit wedding page 
+
+## PAGES & OATH
 
 ```as a user i want to
 view the homepage
@@ -30,7 +32,7 @@ see the exact location of the wedding inculding a map on the homepage (or locati
 so it will be easy to find the day of```
 
 
-# Features
+## FEATURES
 
 ```as a user I want to
 be able to view where the couple is registered for gifts on the homepage
@@ -62,7 +64,10 @@ sign up for text message notification on updates about the wedding
 
 
 
-# ADMIN
+## ADMIN
+
 ```as admin I want to be able to edit all profiles so i can kick people out of the wedding```
+
 ```as admin I want to be able to be able to post blog posts to the blog page to keep people informed```
+
 ```as admin I want to be able to track user data using highcharts and google analytics```
