@@ -1,4 +1,5 @@
-# Build cool shit wedding page 
+# Build cool shit wedding page
+![blah blah blah](https://github.com/Steavod19/wedding-site/blob/master/images/SKlogo.png)
 
 ## PAGES & OATH
 
@@ -9,7 +10,7 @@ so i can see important information about how cool this ish is going to be```
 ```as a user i want to
 be able to register as a user (google oath? FB? or custom)
 to create a profiles
-(register --> edit profile --> view profile on confirmation)```
+(register --> create profile --> view profile on confirmation)```
 
 ```as a user i want to
 be able to access my profile page
