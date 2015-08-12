@@ -2,8 +2,8 @@
 i want to view the homepage
 so i can see important information about how cool steve r is```
 
-```as a user i want to login be able to register as a user
-to access my information```
+```as a user i want to be able to register as a user
+to access my information and call nick c a biatch```
 
 ```as a user i want to be able to register as a user
 to access my information```
