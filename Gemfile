@@ -11,7 +11,13 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'factory_girl'
+  gem 'valid_attribute'
+  gem 'shoulda-matchers', require: false
   gem 'pry-rails'
-  gem 'web-console', '~> 2.0'
   gem 'bundle'
+  gem 'puma'
 end
