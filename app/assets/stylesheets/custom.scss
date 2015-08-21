@@ -11,6 +11,28 @@
   background-color: #000 !important;
 }
 
-a.fa.fa-angle-down {
-  color: #000 !important;
+// a.fa.fa-angle-down {
+//   color: #000 !important;
+// }
+
+.notice {
+  background: transparent !important;
+}
+.notice {
+  background: transparent !important;
+}
+
+.work-image {
+    width: 381px;
+    height: 200px;
+}
+
+/* resize images */
+.work-image img {
+    width: 100%;
+    height: auto;
+}
+
+#works.module {
+  padding: 75px 0 !important;
 }
