@@ -38,6 +38,12 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     arel (6.0.3)
+    autoprefixer-rails (5.2.1.2)
+      execjs
+      json
+    bootstrap-sass (3.3.5.1)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.3.0)
     builder (3.2.2)
     bundle (0.0.1)
       bundler
@@ -60,6 +66,8 @@ GEM
     execjs (2.5.2)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
+    font-awesome-sass (4.4.0)
+      sass (>= 3.2)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -176,10 +184,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.5)
   bundle
   capybara
   coffee-rails (~> 4.1.0)
   factory_girl
+  font-awesome-sass (~> 4.4.0)
   jbuilder (~> 2.0)
   jquery-rails
   launchy
