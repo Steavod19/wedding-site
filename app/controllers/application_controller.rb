@@ -10,7 +10,10 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sign_up) { |x| x.permit(
       :first_name,
       :last_name,
-      :phone_number
+      :phone_number,
+      :password,
+      :password_confirmation,
+      :email
     )}
   end
 end

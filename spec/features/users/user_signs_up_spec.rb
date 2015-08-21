@@ -19,13 +19,12 @@ feature "a user signs up", %q(
     fill_in 'last name', with: 'Perkis'
     fill_in 'email', with: 'tony@perkis_system.com'
     fill_in 'phone number', with: '2813308004'
-# save_and_open_page
     fill_in 'Password', with: 'hustle123'
     fill_in 'password confirmation', with: 'hustle123'
 
     click_button 'Register'
-
-    expect(page).to have_content 'Welcome! You have signed up successfully,'
-    expect(page).to have_content 'Sign Out'
+    
+    expect(page).to have_content 'Welcome! You have signed up successfully.'
+    expect(page).to have_content 'Logout'
   end
 end
