@@ -11,7 +11,7 @@ feature "a user signs up", %q(
   [ ] If I don't specify the required information, I am presented with an error message
 ) do
 
-  scenario 'specify valid credentials', focus: true do
+  scenario 'specify valid credentials' do
     visit root_path
     click_link 'Login'
 
@@ -23,7 +23,7 @@ feature "a user signs up", %q(
     fill_in 'password confirmation', with: 'hustle123'
 
     click_button 'Register'
-    
+
     expect(page).to have_content 'Welcome! You have signed up successfully.'
     expect(page).to have_content 'Logout'
   end
