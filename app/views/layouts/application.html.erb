@@ -32,13 +32,23 @@
           <li><a href="#team" class="section-scroll">Events</a></li>
           <li><a href="#pricing" class="section-scroll">Registry</a></li>
           <li><a href="#news" class="section-scroll">FAQ</a></li>
-          <li><a href="#contact" class="section-scroll">Log Out</a></li>
+          <% if current_user %>
+            <li><a href="#contact" class="section-scroll">Logout</a></li>
+            <li>
+          <% else %>
+            <li><%= link_to 'Login', new_user_registration_path %></li>
+          <% end %>
 
         </ul>
       </div>
     </div>
   </nav>
-  
+
+<!--alerts-->
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+<!--/alerts-->
+
 <%= yield %>
 
 </body>
