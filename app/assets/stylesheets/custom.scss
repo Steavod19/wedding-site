@@ -33,6 +33,18 @@
     height: auto;
 }
 
-#works.module {
+.mover50.work-image img{
+  position: relative; top: -50%;
+}
+
+.mover35.work-image img{
+  position: relative; top: -35%;
+}
+.mover15.work-image img{
+  position: relative; top: -10%;
+}
+
+
+.module {
   padding: 75px 0 !important;
 }
