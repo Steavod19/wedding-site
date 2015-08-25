@@ -7,13 +7,14 @@ feature "a user signs up", %q(
   So that I can partake in the festivities and happenings and such
 
   Acceptance Criteria:
-  [ ] I must specify a valid email address, password, and password confirmation
+  [x] I must specify a valid email address, password, and password confirmation
   [ ] If I don't specify the required information, I am presented with an error message
+
 ) do
 
   scenario 'specify valid credentials' do
     visit root_path
-    click_link 'Login'
+    click_link 'Sign Up'
 
     fill_in 'first name', with: 'Tony'
     fill_in 'last name', with: 'Perkis'

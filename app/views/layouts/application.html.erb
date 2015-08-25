@@ -19,7 +19,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Thorson &amp; Rogers</a>
+        <%= link_to "Thorson & Rogers", root_path, class: "navbar-brand" %>
       </div>
 
       <div class="collapse navbar-collapse" id="custom-collapse">
@@ -34,9 +34,9 @@
           <li><a href="#news" class="section-scroll">FAQ</a></li>
           <% if current_user %>
             <li><a href="#contact" class="section-scroll">Logout</a></li>
-            <li>
           <% else %>
-            <li><%= link_to 'Login', new_user_registration_path %></li>
+            <li><%= link_to 'Login', new_user_session_path %></li>
+            <li><%= link_to 'Sign Up', new_user_registration_path %></li>
           <% end %>
 
         </ul>
@@ -45,8 +45,11 @@
   </nav>
 
 <!--alerts-->
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <% flash.each do |key, value| %>
+  <div data-alert class="flash flash-<%= key %> alert-box">
+    <%= value %>
+  </div>
+  <% end %>
 <!--/alerts-->
 
 <%= yield %>
