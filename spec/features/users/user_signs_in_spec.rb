@@ -7,9 +7,9 @@ feature "user signs in", %q(
   So that I can be signed in
 
   Acceptance Criteria:
-  [ ] I must be able to sign in with my email address and password.
-  [ ] I must see a notification indicating success upon signing in.
-  [ ] If there are errors, I see notifications.
+  [x] I must be able to sign in with my email address and password.
+  [x] I must see a notification indicating success upon signing in.
+  [x] If there are errors, I see notifications.
 
 ) do
 

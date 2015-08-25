@@ -28,4 +28,11 @@ feature "a user signs up", %q(
     expect(page).to have_content 'Welcome! You have signed up successfully.'
     expect(page).to have_content 'Logout'
   end
+
+  scenario "invalid sign up" do
+    visit new_user_registration_path
+    click_button "Register"
+
+    expect(page).to have_content "can't be blank"
+  end
 end
