@@ -29,4 +29,11 @@ feature "user signs in", %q(
     expect(page).to_not have_content "Sign Up"
   end
 
+  scenario "unregistered user tries to sign in" do
+    visit new_user_session_path
+    click_button "Login"
+
+    expect(page).to have_content "Invalid email or password"
+  end
+
 end
