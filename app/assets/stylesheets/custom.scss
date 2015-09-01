@@ -70,20 +70,6 @@ a:hover, a:focus {
   margin-top: 40px !important;
 }
 
-// centering rows
-
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-
 .margin-bottom {
   margin-bottom: 40px;
 }
@@ -95,3 +81,12 @@ a:hover, a:focus {
 .title-margin {
   margin-bottom: 30px !important;
 }
+
+.bg-dark-60:before {
+    position: absolute;
+    background: rgba(34, 34, 34, 0.7) !important;
+}
+
+.module, .module-small {
+    background-position: 50% 66% !important;
+  }
