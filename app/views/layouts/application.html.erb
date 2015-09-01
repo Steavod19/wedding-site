@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>WeddingSite</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -8,23 +9,17 @@
   <%= favicon_link_tag 'favicomatic/favicon.ico' %>
 </head>
 
-
 <body>
-  
-
-<%= render 'layouts/nav' %>
-
-<div>
-<!--alerts-->
-  <% flash.each do |key, value| %>
-  <div data-alert class="flash flash-<%= key %> alert-box">
-    <%= value %>
+  <%= render 'layouts/nav' %>
+  <div>
+  <!--alerts-->
+    <% flash.each do |key, value| %>
+      <div data-alert class="flash flash-<%= key %> alert-box">
+        <%= value %>
+      </div>
+    <% end %>
   </div>
-  <% end %>
 <!--/alerts-->
-</div>
-
 <%= yield %>
-
 </body>
 </html>
