@@ -48,3 +48,50 @@
 .module {
   padding: 75px 0 !important;
 }
+
+
+.alt-features-item {
+    position: relative;
+    padding-left: 55px;
+    margin: 65px 0 0 0 !important;
+  }
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none !important;
+  }
+
+.margin-top {
+  margin-top: 40px !important;
+}
+
+// centering rows
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+.filter {
+  margin-bottom: 20px !important;
+}
+
+.title-margin {
+  margin-bottom: 30px !important;
+}
